@@ -25,7 +25,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"senarium" {
+		"neosenarium" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

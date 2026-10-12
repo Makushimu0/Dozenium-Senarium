@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "senarium",
+	"id": "neosenarium",
 	"version": "${version}",
-	"name": "Senarium",
+	"name": "NeoSenarium",
 	"description": "I cast all numbers are now sezimal!",
 	"authors": [
 		"Makushimu"
@@ -12,23 +12,23 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/senarium/icon.png",
+	"icon": "assets/neosenarium/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"name.modid.Senarium"
+			"name.modid.NeoSenarium"
 		],
 		"client": [
-			"name.modid.SenariumClient"
+			"name.modid.NeoSenariumClient"
 		],
 		"modmenu": [
 			"name.modid.config.ModMenuIntegration"
 		]
 	},
 	"mixins": [
-		"senarium.mixins.json",
+		"neosenarium.mixins.json",
 		{
-			"config": "senarium.client.mixins.json",
+			"config": "neosenarium.client.mixins.json",
 			"environment": "client"
 		}
 	],
